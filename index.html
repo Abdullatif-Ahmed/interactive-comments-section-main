@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;1,200&family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Interactive comments section</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="main-content">
+          <div class="comments-con"></div>
+          <div class="addComment-sec">
+            <textarea
+              name="addComment"
+              cols="30"
+              rows="10"
+              placeholder="Add a comment"
+            ></textarea>
+            <div class="currentUserDetail">
+              <div class="user-img-con">
+                <img
+                  src="images/avatars/image-juliusomo.png"
+                  alt=""
+                  class="user-img"
+                />
+              </div>
+              <button class="btn-style" id="sendBtn">SEND</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
